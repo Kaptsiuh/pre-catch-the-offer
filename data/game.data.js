@@ -1,3 +1,9 @@
+export const OFFER_STATUSES = {
+  default: "default",
+  miss: "miss",
+  caught: "caught",
+};
+
 export const data = {
   settings: {
     rowsCount: 3,
@@ -7,6 +13,7 @@ export const data = {
     decreaseDeltaInMs: 100,
     isMuted: true,
   },
+  status: OFFER_STATUSES.default,
   coords: {
     current: {
       x: 0,
